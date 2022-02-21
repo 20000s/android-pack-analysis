@@ -2,11 +2,11 @@
 
 首先看看java层
 
-![](1.png)
+![](12.png)
 
 没什么特别的，接着进入c层看看secshell.so
 
-![](2.png)
+![](22.png)
 
 发现smc了，不过没有关系 frida dump下来再看看，不过反正要调试的，dump下来也最多静态看看
 
@@ -41,17 +41,17 @@ init_array没啥事，就是设置一下环境，不放图了，主要是jni_onl
 
 放置环境变量的部分，我跳过了，主要说一下主要的，这里将class0.jar放入内存zhon
 
-![](3.png)
+![](23.png)
 
 之后应该是解密过了 放入class.jar
 
-![](4.png)
+![](24.png)
 
 之后调用java函数 loadclass
 
-![](5.png)
+![](25.png)
 
-![](6.png)
+![](26.png)
 
 脱壳：
 
