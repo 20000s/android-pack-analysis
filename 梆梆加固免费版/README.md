@@ -52,3 +52,7 @@ init_array没啥事，就是设置一下环境，不放图了，主要是jni_onl
 ![](5.png)
 
 ![](6.png)
+
+脱壳：
+
+第一代壳，所以直接dump就行 或者拿取class.jar
